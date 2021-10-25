@@ -13,7 +13,7 @@ export const config: Config = {
           browserName: 'chrome',
           count: 1,
           chromeOptions: {
-            args: ['--headless'],
+            args: ['--headless', '--disable-gpu'],
           }
         }
 };
